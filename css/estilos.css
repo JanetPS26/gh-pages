@@ -1,0 +1,59 @@
+/* Este es un comentario en css. se realiza con control + k se suelta k sin soltar control y se presiona c */
+h1{
+    /* Con esta propiedad se modifica el color de la letra */
+        color:#cbdfbd;
+    /* Con esta propiedad se colocael fondo en una etiqueta */
+    /* Color en nombre de color */
+        background-color: black;
+    /* Sirve para alinear texto */
+        text-align: center;
+    /* Sirve para indicar tamaño del encabezado por pixeles*/
+        font-size:4em;
+       /* Separación entre letras pixeles*/ 
+        letter-spacing: 15px;
+       /* Separación entre palabras pixeles*/ 
+        word-spacing: 20px;
+        /* Para tipos de fuente en letras  se puede utilizar la pagina https://fonts.google.com/?category=Display&subset=latin&noto.script=Latn*/ 
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    /* Esta es una selección por etiqueta */
+    /* se coloca # y despues la clave del color para que apique los cambios */
+    /* Color en rgb */
+        color:rgb(17, 17, 17);
+    /* Color exadecimal se coloca # se puede buscar colores en la siguiente pagina https://coolors.co/palettes/trending*/
+        background-color: #219ebc;
+        text-align: center;
+
+    }
+    /* Selector por grupo de etiquetas */
+    header{
+        background-color: #c7f9cc;
+        color: #000814;
+    }
+    nav{
+        font-size:2.5em; 
+    }
+section{
+    background-color: #219ebc;
+}
+aside{
+background-color: #ff006e;
+}
+footer{
+    background-color: #f9c74f;
+}
+/* Seleccion multiple se colocar *antes de la { para aplicar a todo el documento */
+body{
+    background-color:#4ecdc4;
+    font-family: 'Stint Ultra Condensed', cursive;
+  
+}
+    /* Selector por jerarquias  aplica a todo, en este caso a las p*/
+    /* p{
+        color: red;
+    }   */
+    /* Selector por jerarquias  aplica en un rango en especifico, en este ejemplo solo las p que se encuentran en section*/
+section p{
+    color: #000814;
+}
