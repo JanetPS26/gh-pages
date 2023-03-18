@@ -42,6 +42,7 @@ background-color: #ff006e;
 }
 footer{
     background-color: #f9c74f;
+    font-size:2.5em; 
 }
 /* Seleccion multiple se colocar *antes de la { para aplicar a todo el documento */
 body{
@@ -56,4 +57,17 @@ body{
     /* Selector por jerarquias  aplica en un rango en especifico, en este ejemplo solo las p que se encuentran en section*/
 section p{
     color: #000814;
+    /* Para aplicar negritas a las letras */
+    font-weight:bold;
+    /* Para aplicar subrayados en las letras */
+text-decoration: underline;
+    /* Para cambiar el color de subrayados en las letras */
+text-decoration-color: brown;
+}
+a{
+      /* Para eliminar subrayados en las letras */
+    text-decoration: none;
+    color: #000814;
+     /* Para elegir mayusculas, minusculas, etc.,en las letras */
+    text-transform: capitalize;
 }
